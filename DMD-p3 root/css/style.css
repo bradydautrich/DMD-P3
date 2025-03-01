@@ -1,0 +1,82 @@
+.silkscreen-regular {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.silkscreen-bold {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.micro-5-regular {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+  
+body{
+    background-color:#160F29;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.ads{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: flex-end;
+    justify-content: center;
+    height: 568px;
+    position:sticky;
+    bottom: 32px;
+}
+
+h1{
+    color: #FF210B;
+    -webkit-text-stroke-width: 8px;
+    -webkit-text-stroke-color: var(--DMD-cyan, #69DDFF);
+    font-family: Silkscreen;
+    font-size: 104px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h2{
+    color:#FF210B;
+    font-family: "Micro 5";
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    width: 62rem;
+    height: 14rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.playbutton{
+    width: 34rem;
+    height: 11rem;
+    background: #6BD424;
+    flex-shrink: 0;
+    border: 8px solid #FF210B;
+}
+
+.playbutton a{
+    color: #FF210B;
+    text-align: center;
+}
