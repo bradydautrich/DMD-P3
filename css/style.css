@@ -3,7 +3,7 @@
     font-weight: 400;
     font-style: normal;
 }
-  
+
 .silkscreen-bold {
     font-family: "Silkscreen", sans-serif;
     font-weight: 700;
@@ -18,21 +18,28 @@
   
 body{
     background-color:#160F29;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 32px;
+    grid-auto-flow: dense;
 }
 
-.ads{
-    display: flex;
-    flex-direction: row;
-    gap: 32px;
-    align-items: flex-end;
-    justify-content: center;
-    height: 568px;
-    position:sticky;
-    bottom: 32px;
+#hotdog-ad{
+    grid-column: 1/ span 2;
+    width: 100%;
+}
+
+#supplement-ad{
+    grid-column: 3/ span 8;
+    width: 100%;
+}
+
+#500-a-day-ad{
+    grid-column: 10/ span 2;
+    width: 100%;
 }
 
 h1{
@@ -56,6 +63,9 @@ h2{
 }
 
 a{
+    text-decoration: none;
+}
+a:visited{
     text-decoration: none;
 }
 
